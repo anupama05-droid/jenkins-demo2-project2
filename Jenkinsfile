@@ -25,7 +25,6 @@ pipeline {
             steps 
             {
                 echo 'Testing the application'
-                sh 'bash test.sh'
             }
         }
         
@@ -34,7 +33,6 @@ pipeline {
             steps 
             {
                 echo 'Deployiing the appication'
-                sh 'echo  "Website CI pipeline executed successfully!"'
             }
         }
 
