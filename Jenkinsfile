@@ -8,7 +8,6 @@ pipeline {
             steps 
             {
                 echo 'Building the application'
-                sh 'ls -l'
             }
         }
 
